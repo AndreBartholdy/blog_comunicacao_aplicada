@@ -1,16 +1,14 @@
-// Espera o DOM carregar antes de executar os scripts
 document.addEventListener("DOMContentLoaded", function () {
-    // Scroll suave para os links do menu
     const menuLinks = document.querySelectorAll("header nav a");
     menuLinks.forEach(link => {
         link.addEventListener("click", function (e) {
             e.preventDefault();
-            const targetId = this.getAttribute("href").substring(1); // Remove o '#' do ID
+            const targetId = this.getAttribute("href").substring(1);
             const targetElement = document.getElementById(targetId);
 
             if (targetElement) {
                 window.scrollTo({
-                    top: targetElement.offsetTop - 50, // Ajuste para evitar sobreposição com o cabeçalho
+                    top: targetElement.offsetTop - 50,
                     behavior: "smooth"
                 });
             }

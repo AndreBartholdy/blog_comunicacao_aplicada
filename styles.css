@@ -8,14 +8,14 @@
 body {
     font-family: 'Poppins', Arial, sans-serif;
     line-height: 1.6;
-    background-color: #1a1a1a; /* Fundo neutro escuro */
-    color: #e4e4e4; /* Texto claro */
+    background-color: #1a1a1a;
+    color: #e4e4e4;
     margin: 0;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #262626; /* Fundo cinza escuro */
+    background-color: #262626;
     color: #ffffff;
     padding: 1.5rem 0;
     text-align: center;
@@ -28,7 +28,7 @@ header {
 header h1 {
     margin-bottom: 0.5rem;
     font-size: 2rem;
-    color: #8a4bff; /* Roxo vibrante */
+    color: #8a4bff;
 }
 
 header nav ul {
@@ -39,7 +39,7 @@ header nav ul {
 }
 
 header nav a {
-    color: #cfcfcf; /* Cinza claro */
+    color: #cfcfcf;
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
@@ -48,15 +48,15 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: #8a4bff; /* Roxo vibrante no hover */
-    color: #ffffff; /* Texto branco no hover */
+    background-color: #8a4bff;
+    color: #ffffff;
     transform: scale(1.1);
 }
 
 /* Seções */
 .section {
     padding: 2rem 1rem;
-    background: #212121; /* Fundo cinza mais escuro */
+    background: #212121;
     margin: 1.5rem auto;
     border-radius: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
@@ -69,7 +69,7 @@ header nav a:hover {
 }
 
 .section h2 {
-    color: #8a4bff; /* Roxo vibrante */
+    color: #8a4bff;
     margin-bottom: 1rem;
     font-size: 1.8rem;
     border-bottom: 2px solid #8a4bff;
@@ -84,7 +84,7 @@ header nav a:hover {
 .section p {
     margin-bottom: 1rem;
     line-height: 1.8;
-    color: #d6d6d6; /* Cinza claro */
+    color: #d6d6d6;
 }
 
 /* Kanban */
@@ -96,8 +96,8 @@ header nav a:hover {
 }
 
 .kanban-column {
-    background-color: #262626; /* Fundo neutro escuro */
-    color: #ffffff; /* Texto claro */
+    background-color: #262626;
+    color: #ffffff;
     flex: 1;
     padding: 1rem;
     border-radius: 10px;
@@ -114,7 +114,7 @@ header nav a:hover {
 
 .kanban-column h3 {
     font-size: 1.5rem;
-    color: #8a4bff; /* Roxo vibrante */
+    color: #8a4bff;
     margin-bottom: 0.5rem;
     text-align: center;
     border-bottom: 2px solid #8a4bff;
@@ -122,7 +122,7 @@ header nav a:hover {
 }
 
 .kanban-item {
-    background-color: #303030; /* Fundo cinza intermediário */
+    background-color: #303030;
     padding: 0.8rem;
     border-radius: 8px;
     text-align: center;
@@ -138,8 +138,8 @@ header nav a:hover {
 
 /* Rodapé */
 footer {
-    background-color: #262626; /* Cinza escuro */
-    color: #cfcfcf; /* Cinza claro */
+    background-color: #262626;
+    color: #cfcfcf;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
@@ -152,12 +152,12 @@ footer p {
 }
 
 footer p:hover {
-    color: #8a4bff; /* Roxo vibrante no hover */
+    color: #8a4bff;
 }
 
 /* Botão interativo */
 button {
-    background-color: #8a4bff; /* Roxo vibrante */
+    background-color: #8a4bff;
     color: #fff;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -169,19 +169,19 @@ button {
 }
 
 button:hover {
-    background-color: #6c38cc; /* Roxo mais escuro no hover */
+    background-color: #6c38cc;
     transform: scale(1.1);
 }
 
 /* Links */
 a {
-    color: #cfcfcf; /* Cinza claro */
+    color: #cfcfcf;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #8a4bff; /* Roxo vibrante no hover */
+    color: #8a4bff;
 }
 
 /* Estilização para o infográfico */
